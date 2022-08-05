@@ -242,12 +242,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean isBoxSelectable(int boxPosition){
 
-        boolean response=false;
-
-        if(boxpositions[boxPosition]==0){
-            response=true;
-        }
-        return response;
+        return boxpositions[boxPosition] == 0;
     }
     @Override
     public void onBackPressed() {
