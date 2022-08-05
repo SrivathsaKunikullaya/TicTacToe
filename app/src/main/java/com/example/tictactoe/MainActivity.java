@@ -65,83 +65,59 @@ public class MainActivity extends AppCompatActivity {
         playerTwoName.setText(getPlayerTwoName);
 
 
-        image1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(0)){
-                    performAction((ImageView)v,0);
-                }
+        image1.setOnClickListener(v -> {
+            if (isBoxSelectable(0)){
+                performAction((ImageView)v,0);
             }
         });
 
-        image2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(1)){
-                    performAction((ImageView)v,1);
-                }
-
+        image2.setOnClickListener(v -> {
+            if (isBoxSelectable(1)){
+                performAction((ImageView)v,1);
             }
+
         });
 
-        image3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(2)){
-                    performAction((ImageView)v,2);
-                }
-
+        image3.setOnClickListener(v -> {
+            if (isBoxSelectable(2)){
+                performAction((ImageView)v,2);
             }
+
         });
 
-        image4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(3)){
-                    performAction((ImageView)v,3);
-                }
-
+        image4.setOnClickListener(v -> {
+            if (isBoxSelectable(3)){
+                performAction((ImageView)v,3);
             }
+
         });
 
-        image5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(4)){
-                    performAction((ImageView)v,4);
-                }
-
+        image5.setOnClickListener(v -> {
+            if (isBoxSelectable(4)){
+                performAction((ImageView)v,4);
             }
+
         });
 
-        image6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(5)){
-                    performAction((ImageView)v,5);
-                }
-
+        image6.setOnClickListener(v -> {
+            if (isBoxSelectable(5)){
+                performAction((ImageView)v,5);
             }
+
         });
 
-        image7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(6)){
-                    performAction((ImageView)v,6);
-                }
-
+        image7.setOnClickListener(v -> {
+            if (isBoxSelectable(6)){
+                performAction((ImageView)v,6);
             }
+
         });
 
-        image8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isBoxSelectable(7)){
-                    performAction((ImageView)v,7);
-                }
-
+        image8.setOnClickListener(v -> {
+            if (isBoxSelectable(7)){
+                performAction((ImageView)v,7);
             }
+
         });
 
         image9.setOnClickListener(new View.OnClickListener() {
