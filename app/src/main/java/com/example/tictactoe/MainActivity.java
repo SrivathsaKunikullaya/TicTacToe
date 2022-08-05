@@ -238,12 +238,11 @@ public class MainActivity extends AppCompatActivity {
         return response;
     }
 
-
-
     private boolean isBoxSelectable(int boxPosition){
 
         return boxpositions[boxPosition] == 0;
     }
+
     @Override
     public void onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
